@@ -27,8 +27,24 @@ Get a raspberry pi. Wire an LED to it like so:
 
 ![](https://projects.drogon.net/wp-content/uploads/2012/06/1led_gpio_bb1.jpg)
 
+
+Installation
+============
+
+Install pip:
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python3-pip
+```
+
 Open a terminal in your pi, and install these Python dependencies:
 
+```
+sudo python3 -m pip install tornado
+```
+or
 ```
 pip install tornado RPi.GPIO
 ```
